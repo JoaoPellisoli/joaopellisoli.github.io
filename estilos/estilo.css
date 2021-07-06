@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #0F1299;
+    --cor2: #4D4FFF;
+    --cor3: #2E31E6;
+    --cor4: #997C00;
+    --cor5: #E6C32E; 
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor2);
+}
+
+header {
+    height: 100px;
+    padding: 20px 0px 0px 0px;
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+}
+
+main {
+
+}
