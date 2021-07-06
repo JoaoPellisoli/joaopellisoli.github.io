@@ -26,5 +26,11 @@ header {
 }
 
 main {
+    margin: 10px;
+    background-color: var(--cor5);
+}
 
+footer {
+    margin: 10px;
+    background-color: var(--cor4);
 }
