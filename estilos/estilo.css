@@ -9,7 +9,7 @@
     --cor1: #0F1299;
     --cor2: #4D4FFF;
     --cor3: #2E31E6;
-    --cor4: #997d00bb;
+    --cor4: #f0c60eb9;
     --cor5: #ffefa7;
     --titulo: 'Archivo Black', sans-serif; 
     --subtitulo: 'Cuprum', sans-serif;
@@ -69,7 +69,7 @@ main a:hover {
 footer {
     margin: 10px;
     padding: 5px;
-    background-color: var(--cor4);
+    background-color: var(--cor1);
     color: white;
 }
 
@@ -79,6 +79,6 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--cor3);
+    color: #ffff00d5;
     text-decoration: underline;
 }
