@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
 
 
 @import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@400;500;600;700&display=swap');
@@ -11,7 +11,7 @@
     --cor3: #2E31E6;
     --cor4: #f0c60eb9;
     --cor5: #ffefa7;
-    --titulo: 'Archivo Black', sans-serif; 
+    --titulo: 'Ropa Sans', sans-serif;; 
     --subtitulo: 'Cuprum', sans-serif;
 }
 /* --cor5: #E6C32E; 
@@ -22,29 +22,32 @@
     padding: 0px;
 }
 
-body {
+html, body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor2);
+    background-color: white;
 }
 
 header {
     height: 100px;
     margin: 10px;
+    padding-top: 20px;
     background-color: var(--cor1);
     color: white;
     text-align: center;
 }
 
-header h1 {
+header > h1 {
     font-family: var(--titulo);
+    font-size: 4vw;
     font-weight: 700;
-    padding: 20px;
 }
 
 main {
+    height: 95vh;
     margin: 10px;
     padding: 30px;
-    background-color: var(--cor5);
+    background-color: var(--cor2);
+    color: white;
 }
 
 main h2 {
@@ -58,19 +61,23 @@ main li {
 
 main a {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 1em;
 }
 
 main a:hover {
+    color: var(--cor4);
     text-decoration: underline;
-    color: var(--cor3);
+    transition-duration: 1s;
 }
 
 footer {
-    margin: 10px;
-    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
     background-color: var(--cor1);
     color: white;
+    text-align: center;
 }
 
 footer a {
@@ -79,6 +86,6 @@ footer a {
 }
 
 footer a:hover {
-    color: #ffff00d5;
+    color: var(--cor4);
     text-decoration: underline;
 }
